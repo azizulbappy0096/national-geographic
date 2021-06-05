@@ -20,9 +20,11 @@ function SecondaryCard({ data }) {
         </header>
         <footer className="block px-4 py-3 flex-grow relative">
           <div className="flex flex-col h-full">
+            {data.subject &&
             <h5 className="text-base uppercase font-normal text-gray-500 hover:underline">
               <a href={data.subject.link}> {data.subject.text} </a>
             </h5>
+            }
             <h1 className="text-2xl lg:text-3xl font-semibold lg:font-bold mt-4">
               {" "}
               {data.title}{" "}
@@ -44,8 +46,7 @@ function SecondaryCard({ data }) {
                 />
               </svg>
               <span className="uppercase font-bold tracking-widest">
-                {" "}
-                See more!{" "}
+                {data.button ? data.button : "See more!"}
               </span>
             </a>
           </div>

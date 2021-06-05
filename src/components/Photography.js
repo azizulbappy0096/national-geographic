@@ -4,7 +4,7 @@ function Photography() {
   return (
     <div className="relative background-image__promo flex flex-col justify-end">
       <div
-      className="relative z-10 h-full flex-auto grid place-content-end"
+      className="relative z-10 h-full flex-auto flex items-end"
         style={{
           backgroundImage: "linear-gradient(-179deg,transparent,#fff)",
           opacity: 0.99,
