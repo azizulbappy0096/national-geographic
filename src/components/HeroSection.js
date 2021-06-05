@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import SectionTitle from "./SectionTitle";
 import HeroCard from "./shared/HeroCard";
 import Promo from "./shared/Promo";

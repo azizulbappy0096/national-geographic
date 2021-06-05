@@ -271,7 +271,7 @@ export const issueSection = {
             text: "Magazine",
             link: "#",
           },
-          partner: true,
+          partner: false,
           image: "/images/issues/beek.webp",
         },
         {
@@ -288,7 +288,7 @@ export const issueSection = {
             text: "Magazine",
             link: "#",
           },
-          partner: true,
+          partner: false,
           image: "/images/issues/national-park.jpg",
         },
         {

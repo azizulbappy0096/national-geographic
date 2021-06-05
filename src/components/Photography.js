@@ -10,7 +10,7 @@ function Photography() {
           opacity: 0.99,
         }}
       >
-        <div className=" px-6 pb-8  h-full space-y-4 flex flex-col justify-end">
+        <div className="px-2 md:px-6 pb-8  h-full space-y-4 flex flex-col justify-end">
           <a href="#" className="block w-max">
             <span className="capitalize font-semibold text-xl tracking-widest">
               {" "}

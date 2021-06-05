@@ -28,12 +28,12 @@ function Carousel({ items }) {
 
   useEffect(() => {
     if(window.innerWidth > 768) {
-    measureInView(Array.from(carouselList.current.children))
+    measureInView(Array.from(carouselList.current?.children))
   }
 
     window.addEventListener("resize", () => {
       if(window.innerWidth > 768) {
-        measureInView(Array.from(carouselList.current.children))
+        measureInView(Array.from(carouselList.current?.children))
       }
     })
 

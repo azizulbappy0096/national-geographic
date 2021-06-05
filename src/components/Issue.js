@@ -44,7 +44,7 @@ function Issue() {
 
         <div className="my-10 xl:my-0 ">
           <div className="uppercase text-white border-l-4 border-custom-yellow mb-6">
-            <h2 className="text-4xl ml-4"> Latest stories </h2>
+            <h2 className="text-4xl ml-4"> IN THIS ISSUE </h2>
           </div>
      
           <Promo data={issueSection.promoData} />
